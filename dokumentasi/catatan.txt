@@ -1,0 +1,45 @@
+
+Nama Website : IMC (Indonesia Memes Center)
+
+tabel pada IMC :
+- Users
+- Post
+
+install back-end :
+- nodemon
+- express
+- cors
+- body-parser
+- mysql
+- dotenv
+
+akses database :
+1. buka xampp
+2. buka phpmyadmin
+3. buat database tirtabugar_db
+4. buat tabel member
+5. isi data buat percobaab
+
+langkah - langkah :
+- npm init -y
+- npm i express cors body-parser mysql dotenv
+- buat file app.js
+- buat folder router controller model db
+- enable node dan cors dot env 
+
+front-end :
+- Html/css
+- React Js
+
+tabel database :
+* member :
+- id_user INT NOT NULL AUTO_INCREMENT Primary Key
+- nama varchar(255) NOT NULL
+- no_telp int(13) NULL
+- password varchar(255) NOT NULL
+
+* post :
+- like int(1000) NULL
+- caption varchar(255) NOT NULL
+- created_at TIMESTAMP
+- updated_at TIMESTAMP
